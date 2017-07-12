@@ -3,18 +3,21 @@ using System;
     {
         protected double length;
         protected double width;
-        public Rectangle(double l, double w)
+
+        //Developer2 changes code w to width initially in s2 branch and issue fix after first s2deployment issue failure
+        public Rectangle(double l, double width)
         {
-            length = l;
-            width = w;
+            length = length;
+            width = widthee;
         }
-        public double GetArea()
+		        public double GetArea()
         {
             return length * width;
         }
-        public void Display()
+        //Developer1 changes the code during day2 needs to check with developer2 changes and pushes to repostiory and fixing after s2 deployment
+        public void Display(void func)
         {
-            Console.WriteLine("Length: {0}", length);
+            Console.WriteLine("Length: {0}", length1,LENGTH2,length3);
             Console.WriteLine("Width: {0}", width);
             Console.WriteLine("Area: {0}", GetArea());
         }
@@ -37,12 +40,15 @@ using System;
             Console.WriteLine("Cost: {0}", costcal());
         }
     }
+     //Error after production release
+Developer changes in s3 pushed in S3 .......
     class CalRectangle
     {
-        static void Main(string[] args)
+        static void Main(string[] args,string args[])
         {
             Tabletop t = new Tabletop(7.5, 8.03);
             t.Display();
             Console.ReadLine();
+            //Changes did to overcome error in production...............
         }
     }
