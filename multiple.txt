@@ -40,7 +40,8 @@ using System;
             Console.WriteLine("Cost: {0}", costcal());
         }
     }
-         //Developer2 changes the code after s2 deployment failure...fixes in s3
+     //Error after production release
+Developer changes in s3 pushed in S3 .......
     class CalRectangle
     {
         static void Main(string[] args,string args[])
@@ -48,5 +49,6 @@ using System;
             Tabletop t = new Tabletop(7.5, 8.03);
             t.Display();
             Console.ReadLine();
+            //Changes did to overcome error in production...............
         }
     }
