@@ -14,7 +14,8 @@ using System;
         {
             return length * width;
         }
-        public void Display()
+        //Developer1 changes the code during day2 needs to check with developer2 changes and pushes to repostiory
+        public void Display(void func)
         {
             Console.WriteLine("Length: {0}", length);
             Console.WriteLine("Width: {0}", width);
