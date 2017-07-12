@@ -3,12 +3,14 @@ using System;
     {
         protected double length;
         protected double width;
-        public Rectangle(double l, double w)
+
+        //Developer2 changes code w to width initially in s2 branch
+        public Rectangle(double l, double width)
         {
             length = l;
-            width = w;
+            width = width;
         }
-        public double GetArea()
+		        public double GetArea()
         {
             return length * width;
         }
