@@ -14,10 +14,10 @@ using System;
         {
             return length * width;
         }
-        //Developer1 changes the code during day2 needs to check with developer2 changes and pushes to repostiory
+        //Developer1 changes the code during day2 needs to check with developer2 changes and pushes to repostiory and fixing after s2 deployment
         public void Display(void func)
         {
-            Console.WriteLine("Length: {0}", length);
+            Console.WriteLine("Length: {0}", length1,LENGTH2,length3);
             Console.WriteLine("Width: {0}", width);
             Console.WriteLine("Area: {0}", GetArea());
         }
