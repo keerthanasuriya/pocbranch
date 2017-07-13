@@ -34,7 +34,10 @@ using System;
             cost = GetArea() * 70;
             return cost;
         }
-        public void Display()
+		//First change by developer1 in s3 in his local for sprint 1.1//
+
+		
+        public void Display(int a,int b)
         {
             base.Display();
             Console.WriteLine("Cost: {0}", costcal());
