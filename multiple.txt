@@ -34,13 +34,14 @@ using System;
             cost = GetArea() * 70;
             return cost;
         }
-		//First change by developer1 in s3 in his local for sprint 1.1//
+		//First change by developer1 in s3 in his local for sprint 1.1 and later developer2 pulls //
 
-		
-        public void Display(int a,int b)
+		//Developer2 pulls the code from s3 branch and does his changes which needs to be compared and merged with his local rep and pushed to s3 for sprint1.1
+        public void Display(int a,int b,int c)
         {
             base.Display();
-            Console.WriteLine("Cost: {0}", costcal());
+
+            Console.WriteLine("Cost: {0}", costcal(),costacla());
         }
     }
      //Error after production release
