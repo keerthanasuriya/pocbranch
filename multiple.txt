@@ -57,7 +57,9 @@ Developer changes in s3 pushed in S3 .......
         {
             Tabletop t = new Tabletop(7.5, 8.03);
             t.Display();
+			//hotfix solved
             Console.ReadLine();
+			//hotfix solved
             //Changes did to overcome error in production...............
         }
     }
